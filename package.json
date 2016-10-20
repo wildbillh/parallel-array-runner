@@ -1,0 +1,33 @@
+{
+  "name": "parallel-array-runner",
+  "version": "1.0.0",
+  "description": "ES6 Class for applying an asynchronous function (returning a promise), for each element in an array.",
+  "main": "./lib/parallel-array-runner.js",
+  "directories": {
+    "lib": "./lib",
+    "doc": "./doc",
+    "test": "./test",
+    "example": "./example"
+  },
+  "scripts": {
+    "test": "mocha -t 10000 --async-only --reporter spec --ui bdd test",
+    "generateDocs": "node_modules/.bin/jsdoc lib -d doc"
+  },
+  "keywords": [
+    "asynchronous",
+    "parallel",
+    "array",
+    "es6",
+    "class"
+  ],
+  "author": "Bill Hodges",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wildbillh/parallel-array-runner.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdoc": "^3.4.2"
+  }
+}
