@@ -78,7 +78,7 @@ HybridArrayRunner.
 * Rest parameters are used for maximum flexibility.
 
 ##Installation
-npm install serialized-array-runner --save
+npm install parallel-array-runner --save
 
 Git Repository: https://github.com/wildbillh/parallel-array-runner
 
