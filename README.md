@@ -2,6 +2,8 @@
 
 _A promise enabled, ES6 Class for executing an asynchronous function in parallel, for each element in a supplied array._
 
+[![Build Status](https://travis-ci.org/wildbillh/parallel-array-runner.svg?branch=master)](https://travis-ci.org/wildbillh/parallel-array-runner)[![Inline docs](http://inch-ci.org/github/wildbillh/parallel-array-runner.svg?branch=master)](http://inch-ci.org/github/wildbillh/parallel-array-runner)[![npm version](https://badge.fury.io/js/parallel-array-runner.svg)](https://badge.fury.io/js/parallel-array-runner)
+
 ##Synopsis
 
 Execute statements in parallel, throwing away any resolved data (such as database inserts):
